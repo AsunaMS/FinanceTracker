@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H114" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CoreCurrency" representedClassName="CoreCurrency" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="symbol" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CoreInvoice" representedClassName="CoreInvoice" syncable="YES">
+        <attribute name="invoiceAmount" optional="YES" attributeType="Integer 64" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="invoiceDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="invoiceDesc" optional="YES" attributeType="String"/>
+        <attribute name="invoiceInOut" optional="YES" attributeType="String"/>
+        <attribute name="invoiceTitle" optional="YES" attributeType="String"/>
+        <attribute name="invoiceType" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CorePerson" representedClassName="CorePerson" syncable="YES">
+        <attribute name="balance" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="expense" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES"/>
+        <attribute name="income" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <relationship name="currency" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CoreCurrency"/>
+        <relationship name="invoices" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CoreInvoice"/>
+    </entity>
+    <elements>
+        <element name="CoreInvoice" positionX="-36" positionY="45" width="128" height="133"/>
+        <element name="CorePerson" positionX="-54" positionY="-9" width="128" height="163"/>
+        <element name="CoreCurrency" positionX="-45" positionY="63" width="128" height="73"/>
+    </elements>
+</model>
