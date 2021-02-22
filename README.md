@@ -37,7 +37,7 @@
     <a href="https://github.com/AsunaMS/Myoga/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/AsunaMS/Presentations/blob/master/MyogaSD.pdf">View App Presentation</a>
+    <a href="https://github.com/AsunaMS/Presentations/blob/master/FinanceTrackerSD.pdf">View App Presentation</a>
     ·
     <a href="https://www.linkedin.com/in/nadav-avnon-238b011b9/">Report Bug</a>
     ·
@@ -84,9 +84,8 @@ Myoga is a simple Android Application written in java, desgined to show great bo
 
 ### Built With
 
-* [Java]
-* [JavaScript]
-* [XML]
+* [Swift]
+* [SwiftUI]
 
 
 
@@ -98,32 +97,31 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* Android Studio
+* XCode
   ```sh
-  Install Android Studio to launch the application on your computer
+    FinanceTracker can be opened in XCode using a Apple device
   ```
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/AsunaMS/Myoga.git
+   git clone https://github.com/AsunaMS/FinanceTracker.git
    ```
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Myoga is designed with real-time database and network observers to always catch up with the latest quates & videos available on the cloud
-
-
+Fiance Tracker is an application designed to manage one's money, the application also offers currency conversion with real-time market rates.
+Finace Tracker is also designed to show latest articles within the US about finance.
 
 <!-- CONTACT -->
 ## Contact
 
 Nadav Avnon- [@linkedin_handle](https://www.linkedin.com/in/nadav-avnon-238b011b9/) - email
 
-Project Link: [https://github.com/AsunaMS/Myoga](https://github.com/AsunaMS/Myoga)
+Project Link: [https://github.com/AsunaMS/FinanceTracker](https://github.com/AsunaMS/Myoga)
 
 
 
