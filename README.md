@@ -79,10 +79,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Myoga is a simple Android Application written in java, desgined to show great book recommendations & display videos and articles about yoga:
+Fiance Tracker is an application designed to manage one's money, the application also offers currency conversion with real-time market rates.
+Finace Tracker is also designed to show latest articles within the US about finance.
 
-
-### Built With
+## Built With
 
 * [Swift]
 * [SwiftUI]
@@ -110,11 +110,6 @@ This is an example of how to list things you need to use the software and how to
    ```
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Fiance Tracker is an application designed to manage one's money, the application also offers currency conversion with real-time market rates.
-Finace Tracker is also designed to show latest articles within the US about finance.
 
 <!-- CONTACT -->
 ## Contact
